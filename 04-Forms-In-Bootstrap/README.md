@@ -1,6 +1,7 @@
 ## ## 04-Forms-In-Bootstrap
 
 ## 27. Forms in Bootstrap
+
 - Form Control
 - Checks and Radios
 - Input Groups
@@ -55,3 +56,48 @@ Auto sizing is a feature in Bootstrap that uses the FlexBox utility to automatic
 ## 36. Inline Forms
 
 ## 37. Form Validation
+
+## Quiz 4: Section 4
+
+### Question 1: Text field requires a class called?
+
+- [x] - form-control
+- [ ] - form-central
+- [ ] - form-level
+- [ ] - None of the above
+
+### Question 2: You can use different sizes to form-control class?
+
+- [x] - True
+- [ ] - False
+
+### Question 3: The class used for creating checkboxes in Bootstrap are called?
+
+- [ ] - form-control-check
+- [ ] - form-check-control
+- [x] - form-check-input
+- [ ] - check-form-control
+
+### Question 4: To create custom range in Bootstrap, we use the class called?
+
+- [x] - form-range
+- [ ] - range-form
+- [ ] - form-control
+- [ ] - form-check
+
+### Question 5: You can group form-field and text with the class called?
+
+- [ ] - form-input-group
+- [x] - input-group
+- [ ] - form-control
+- [ ] - form-group
+
+### Question 6: You can use grid system with forms?
+
+- [x] - True
+- [ ] - False
+
+### Question 7: Form validation classes are available in bootstrap?
+
+- [x] - True
+- [ ] - False
