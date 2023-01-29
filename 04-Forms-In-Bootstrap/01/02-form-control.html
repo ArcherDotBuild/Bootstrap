@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Web Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <h1>Form Control</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="u_name" class="form-label">Username</label>
+              <input type="text" class="form-control" id="u_name" />
+            </div>
+            <div class="mb-3">
+              <label for="u_comment" class="form-label">Comment</label>
+              <textarea id="u_comment" class="form-control" rows="5"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="u_text" class="form-label">Some Text</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="u_text"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="u_text2" class="form-label">Some Text</label>
+              <input type="text" class="form-control form-control-sm" id="u_text2" />
+            </div>
+            <div class="mb-3">
+              <label for="u_email" class="form-label">Email1</label>
+              <input type="text" class="form-control form-control-sm" id="u_email" value='elfgodd@alienroom.dev' disabled />
+            </div>
+            <div class="mb-3">
+              <label for="u_email2" class="form-label">Email2</label>
+              <input type="text" class="form-control form-control-sm" id="u_email2" value='elfgodd@orbitbase.io' readonly />
+            </div>
+             <div class="mb-3">
+              <label for="u_file" class="form-label">File</label>
+              <input type="file" class="form-control form-control-sm" id="u_file"  />
+            </div>
+            <div class="mb-3">
+              <label for="u_file2" class="form-label">File</label>
+              <input type="file" class="form-control form-control-sm" id="u_file2" disabled />
+            </div>
+            <div class="mb-3">
+              <label for="u_color" class="form-label">Color</label>
+              <input type="color" class="form-control form-control-large form-control-color" id="u_color"  />
+            </div>
+            <div class="mb-3">
+              <label for="u_color2" class="form-label">Color</label>
+              <input type="color" class="form-control form-control-large form-control-color" id="u_color2" disabled />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Web Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <h1>Input Groups2</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <button class="btn btn-primary" type="button">Button</button>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <button class="btn btn-primary" type="button">Button</button>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-warning" type="button">Button</button>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-warning" type="button">Button</button>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <button
+                  class="btn btn-success dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">One</a></li>
+                  <li><a class="dropdown-item" href="#">Two</a></li>
+                  <li><a class="dropdown-item" href="#">Three</a></li>
+                  <li><a class="dropdown-item" href="#">Four</a></li>
+                </ul>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <button
+                  class="btn btn-success dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">One</a></li>
+                  <li><a class="dropdown-item" href="#">Two</a></li>
+                  <li><a class="dropdown-item" href="#">Three</a></li>
+                  <li><a class="dropdown-item" href="#">Four</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <button class="btn btn-success">Action</button>
+                <button
+                  class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  <span class="visually-hidden">Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">One</a></li>
+                  <li><a class="dropdown-item" href="#">Two</a></li>
+                  <li><a class="dropdown-item" href="#">Three</a></li>
+                  <li><a class="dropdown-item" href="#">Four</a></li>
+                </ul>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <label for="choose" class="input-group-text">Country</label>
+                <select id="choose" class="form-control">
+                  <option selected>Choose your country</option>
+                  <option value="one">one</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                  <option value="four">four</option>
+                </select>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mb-3">
+              <div class="input-group">
+                <label for="choose_file" class="input-group-text">
+                  Upload Profile Pic
+                </label>
+                <input type="file" class="form-control" id="choose_file" />
+                <button type="submit" class="btn btn-success">Upload</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

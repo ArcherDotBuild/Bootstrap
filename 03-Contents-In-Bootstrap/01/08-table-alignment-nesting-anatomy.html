@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Web Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .h-10 {
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table Alignment, Nesting and Anatomy</h1>
+    <!--  -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h3>Table Middle</h3>
+          <table class="table align-middle">
+            <thead class="table-group-divider">
+              <th>S.I</th>
+              <th>Name</th>
+              <th>Email ID</th>
+              <th>Phone</th>
+            </thead>
+            <tbody>
+              <tr class="h-10 accordion">
+                <td>1</td>
+                <td>Alberto Guzman</td>
+                <td>elfgodd@alienroom.dev</td>
+                <td>17000</td>
+              </tr>
+              <tr class="h-10">
+                <td>2</td>
+                <td>Josue Guzman</td>
+                <td>josh@alienroom.dev</td>
+                <td>17101</td>
+              </tr>
+              <tr class="h-10">
+                <td>3</td>
+                <td>Yarelis Diaz</td>
+                <td>yare@alienroom.dev</td>
+                <td>17002</td>
+              </tr>
+            </tbody>
+            <tfoot class="table-group-divider">
+              <tr>
+                <td colspan="4">Table Footer</td>
+              </tr>
+            </tfoot>
+          </table>
+          <h3>Table Top</h3>
+          <table class="table align-top">
+            <thead class="table-group-divider">
+              <th>S.I</th>
+              <th>Name</th>
+              <th>Email ID</th>
+              <th>Phone</th>
+            </thead>
+            <tbody>
+              <tr class="h-10 accordion">
+                <td>1</td>
+                <td>Alberto Guzman</td>
+                <td>elfgodd@alienroom.dev</td>
+                <td>17000</td>
+              </tr>
+              <tr class="h-10">
+                <td>2</td>
+                <td>Josue Guzman</td>
+                <td>josh@alienroom.dev</td>
+                <td>17101</td>
+              </tr>
+              <tr class="h-10">
+                <td>3</td>
+                <td>Yarelis Diaz</td>
+                <td>yare@alienroom.dev</td>
+                <td>17002</td>
+              </tr>
+            </tbody>
+            <tfoot class="table-group-divider">
+              <tr>
+                <td colspan="4">Table Footer</td>
+              </tr>
+            </tfoot>
+          </table>
+          <h3>Table Bottom</h3>
+          <table class="table align-bottom">
+            <thead class="table-group-divider">
+              <th>S.I</th>
+              <th>Name</th>
+              <th>Email ID</th>
+              <th>Phone</th>
+            </thead>
+            <tbody>
+              <tr class="h-10 accordion">
+                <td>1</td>
+                <td>Alberto Guzman</td>
+                <td>elfgodd@alienroom.dev</td>
+                <td>17000</td>
+              </tr>
+              <tr class="h-10">
+                <td>2</td>
+                <td>Josue Guzman</td>
+                <td>josh@alienroom.dev</td>
+                <td>17101</td>
+              </tr>
+              <tr class="h-10">
+                <td>3</td>
+                <td>Yarelis Diaz</td>
+                <td>yare@alienroom.dev</td>
+                <td>17002</td>
+              </tr>
+            </tbody>
+            <tfoot class="table-group-divider">
+              <tr>
+                <td colspan="4">Table Footer</td>
+              </tr>
+            </tfoot>
+          </table>
+          <!-- Nested Tables -->
+          <h3>Nesting</h3>
+          <table class="table">
+            <thead class="table-group-divider">
+              <th>S.I</th>
+              <th>Name</th>
+              <th>Email ID</th>
+              <th>Phone</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="4">
+                  <table class="table">
+                    <tr class="h-10 accordion">
+                      <td>1</td>
+                      <td>NESTED Alberto Guzman</td>
+                      <td>elfgodd@alienroom.dev</td>
+                      <td>17000</td>
+                    </tr>
+                    <tr class="h-10">
+                      <td>2</td>
+                      <td>NESTED Josue Guzman</td>
+                      <td>josh@alienroom.dev</td>
+                      <td>17101</td>
+                    </tr>
+                    <tr class="h-10">
+                      <td>3</td>
+                      <td>NESTED Yarelis Diaz</td>
+                      <td>yare@alienroom.dev</td>
+                      <td>17002</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="h-10 accordion">
+                <td>1</td>
+                <td>Alberto Guzman</td>
+                <td>elfgodd@alienroom.dev</td>
+                <td>17000</td>
+              </tr>
+              <tr class="h-10">
+                <td>2</td>
+                <td>Josue Guzman</td>
+                <td>josh@alienroom.dev</td>
+                <td>17101</td>
+              </tr>
+              <tr class="h-10">
+                <td>3</td>
+                <td>Yarelis Diaz</td>
+                <td>yare@alienroom.dev</td>
+                <td>17002</td>
+              </tr>
+            </tbody>
+            <tfoot class="table-group-divider">
+              <tr>
+                <td colspan="4">Table Footer</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
