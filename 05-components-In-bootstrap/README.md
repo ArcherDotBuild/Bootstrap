@@ -36,3 +36,11 @@ https://html.spec.whatwg.org/multipage/named-characters.html#named-character-ref
 ## 46. Button Group Alteration
 
 ## 47. Card
+
+## 48. Card Sizing
+
+## 49. Card Navigation
+
+## 50. Card Images
+
+## 51. Card Styles
