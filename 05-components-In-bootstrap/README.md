@@ -46,3 +46,5 @@ https://html.spec.whatwg.org/multipage/named-characters.html#named-character-ref
 ## 51. Card Styles
 
 ## 52. Carousel
+
+## 53. Carousel Controls
