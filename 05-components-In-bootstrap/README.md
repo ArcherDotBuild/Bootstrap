@@ -17,15 +17,17 @@ the size of a paragraph. Also in Bootstrap 5, badges have no longer
 have focus or hover styles for links.
 
 ## 42. Breadcrumb
+
 Breadcrumbs are a way to show the current page location to the user.
 Bootstrap helps in adding an automatic separator for each page with
 the help of CSS
 
 ### Entity
-An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;). Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). You can also use them in place of other characters that are difficult to type with a standard keyboard.  
-https://developer.mozilla.org/en-US/docs/Glossary/Entity  
 
-https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references  
+An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;). Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). You can also use them in place of other characters that are difficult to type with a standard keyboard.  
+https://developer.mozilla.org/en-US/docs/Glossary/Entity
+
+https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
 
 ## 43. Buttons
 
@@ -50,3 +52,15 @@ https://html.spec.whatwg.org/multipage/named-characters.html#named-character-ref
 ## 53. Carousel Controls
 
 ## 54. Carousel Indicators
+
+## 55. Carousel Caption file21
+
+## 56. Carousel Fade Effect file21
+
+## 57. Carousel Timing
+
+## 58. Disable Carousel Touch Swiping
+
+## 59. Carousel Dark Variant
+
+## 60. Close Button
