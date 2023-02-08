@@ -64,3 +64,16 @@ https://html.spec.whatwg.org/multipage/named-characters.html#named-character-ref
 ## 59. Carousel Dark Variant
 
 ## 60. Close Button
+
+## 61. Collapse
+
+## 62. Horizontal Collapse
+
+## 63. Multiple Targets
+
+## 64. Dropdowns
+
+## 65. Split Button
+
+## 66. Dropdown Sizing
+
