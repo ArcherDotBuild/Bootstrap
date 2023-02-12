@@ -104,3 +104,15 @@ https://html.spec.whatwg.org/multipage/named-characters.html#named-character-ref
 ## 79. List Group Flush file43
 
 ## 80. Numbered List
+
+## 81. Horizontal List Groups
+
+## 82. Contextual List Group Classes
+
+## 83. List Group with Badges
+
+## 84. List Group with Custom Content
+
+## 85. List Group Checkboxes and Radios
+
+## 86. List Group JavaScript Tabs
