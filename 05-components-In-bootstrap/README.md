@@ -99,7 +99,7 @@ https://html.spec.whatwg.org/multipage/named-characters.html#named-character-ref
 
 ## 77. List Group
 
-## 78. List Group Links and Buttons  file43
+## 78. List Group Links and Buttons file43
 
 ## 79. List Group Flush file43
 
@@ -116,3 +116,23 @@ https://html.spec.whatwg.org/multipage/named-characters.html#named-character-ref
 ## 85. List Group Checkboxes and Radios
 
 ## 86. List Group JavaScript Tabs
+
+## 87. Modals
+
+- Built with HTML, CSS, and JavaScript
+- Positioned on Top of Everything Else
+- 1 Modal support at a Time
+- Nested Modals are not supported
+- Positioned to fixed by default
+
+It's a JavaScript plugin that's built into bootstrap, with the help of modals, you can create dialogs, light boxes, user notifications and so much more. Some things you should note before getting started with modals are that modals are built with HTML, CSS and JavaScript
+
+## 88. Static Backdrop
+
+## 89. Scrolling Long Content
+
+## 90. Vertically Centered
+
+## 91. Modal Tooltips and Popovers
+
+## 92. Using Grid System In Modal
