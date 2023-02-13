@@ -136,3 +136,7 @@ It's a JavaScript plugin that's built into bootstrap, with the help of modals, y
 ## 91. Modal Tooltips and Popovers
 
 ## 92. Using Grid System In Modal
+
+93. Varying Modal Content
+
+94. Toggle Between Modals
