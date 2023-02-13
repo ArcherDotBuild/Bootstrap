@@ -137,6 +137,23 @@ It's a JavaScript plugin that's built into bootstrap, with the help of modals, y
 
 ## 92. Using Grid System In Modal
 
-93. Varying Modal Content
+## 93. Varying Modal Content
 
-94. Toggle Between Modals
+## 94. Toggle Between Modals
+
+## 95. Optional Modal Sizes
+
+```
+class="modal fade modal-sm"
+class="modal fade modal-lg"
+class="modal-dialog modal-fullscreen
+
+Fullscreen on mobile devices
+class="modal-dialog modal-fullscreen-sm-down"
+```
+
+## 96. Navbar
+
+## 97. Navigation Links
+
+## 98. Navbar Dropdown
