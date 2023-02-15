@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <h1 class="mt-5 ms-5 mb-5">Navbar Dropdown</h1>
+    <h1 class="mt-5 ms-5 mb-5">Navbar Nested Dropdown</h1>
     <!-- START HERE -->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
@@ -53,6 +53,29 @@
                 <li><a href="#" class="dropdown-item">Action</a></li>
                 <li><a href="#" class="dropdown-item">Another Action</a></li>
                 <li><a href="#" class="dropdown-item">Something Cool</a></li>
+                <li class="dropdown dropend">
+                  <a
+                    href="#"
+                    class="dropdown-item dropdown-toggle"
+                    id="navbar-dropdown-list-deep-1"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Nested Dropdown</a
+                  >
+                  <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbar-dropdown-link"
+                  >
+                    <li><a href="#" class="dropdown-item">Action</a></li>
+                    <li>
+                      <a href="#" class="dropdown-item">Another Action</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Something Cool</a>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
