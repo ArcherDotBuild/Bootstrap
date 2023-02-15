@@ -159,3 +159,26 @@ class="modal-dialog modal-fullscreen-sm-down"
 98. Navbar Dropdown
 
 99. Navbar Nested Dropdown
+
+100. Navbar Forms
+
+101. Navbar Input Group
+
+102. Navbar Plain Text
+
+103. Navbar Colors
+
+104. Navbar Containers
+
+105. Navbar Placement
+
+```
+<nav class="navbar bg-light fixed-top">
+<nav class="navbar bg-light fixed-bottom">
+
+// Sticks when touches the top
+<nav class="navbar bg-light sticky-top">
+
+// Sticks until the navigation reaches
+<nav class="navbar bg-light sticky-top">
+```
