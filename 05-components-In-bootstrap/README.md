@@ -156,21 +156,21 @@ class="modal-dialog modal-fullscreen-sm-down"
 
 ## 97. Navigation Links
 
-98. Navbar Dropdown
+## 98. Navbar Dropdown
 
-99. Navbar Nested Dropdown
+## 99. Navbar Nested Dropdown
 
-100. Navbar Forms
+## 100. Navbar Forms
 
-101. Navbar Input Group
+## 101. Navbar Input Group
 
-102. Navbar Plain Text
+## 102. Navbar Plain Text
 
-103. Navbar Colors
+## 103. Navbar Colors
 
-104. Navbar Containers
+## 104. Navbar Containers
 
-105. Navbar Placement
+## 105. Navbar Placement
 
 ```
 <nav class="navbar bg-light fixed-top">
@@ -182,3 +182,9 @@ class="modal-dialog modal-fullscreen-sm-down"
 // Sticks until the navigation reaches
 <nav class="navbar bg-light sticky-top">
 ```
+
+106. Navbar Scrolling
+
+107. Off Canvas Navbar
+
+108. Navs and Tabs
