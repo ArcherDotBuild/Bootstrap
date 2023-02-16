@@ -188,3 +188,7 @@ class="modal-dialog modal-fullscreen-sm-down"
 107. Off Canvas Navbar
 
 108. Navs and Tabs
+
+109. Nav Flex Utilities
+
+110. Nav Tabs and Pills with Dropdown
