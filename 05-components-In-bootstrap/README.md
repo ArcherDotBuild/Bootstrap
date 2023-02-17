@@ -183,12 +183,14 @@ class="modal-dialog modal-fullscreen-sm-down"
 <nav class="navbar bg-light sticky-top">
 ```
 
-106. Navbar Scrolling
+## 106. Navbar Scrolling
 
-107. Off Canvas Navbar
+## 107. Off Canvas Navbar
 
-108. Navs and Tabs
+## 108. Navs and Tabs
 
-109. Nav Flex Utilities
+## 109. Nav Flex Utilities
 
-110. Nav Tabs and Pills with Dropdown
+## 110. Nav Tabs and Pills with Dropdown
+
+## 111. Tabs and Pills Behaviors
