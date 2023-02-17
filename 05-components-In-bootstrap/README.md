@@ -194,3 +194,27 @@ class="modal-dialog modal-fullscreen-sm-down"
 ## 110. Nav Tabs and Pills with Dropdown
 
 ## 111. Tabs and Pills Behaviors
+
+## 112. Offcanvas In-Depth
+
+## 113. Offcanvas Scrolling
+
+```
+data-bs-backdrop="true"
+data-bs-backdrop="false"
+data-bs-backdrop="static"
+```
+
+## 114. Offcanvas Placement
+
+```
+class="offcanvas offcanvas-start"
+class="offcanvas offcanvas-end"
+class="offcanvas offcanvas-top"
+class="offcanvas offcanvas-bottom"
+
+```
+
+## 115. Pagination
+
+## 116. Placeholders
