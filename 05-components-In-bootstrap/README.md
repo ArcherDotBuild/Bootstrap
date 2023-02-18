@@ -239,3 +239,17 @@ class="offcanvas offcanvas-bottom"
 `data-bs-trigger="hover focus"`
 
 ## 122. Progress Bars
+
+123. Progress Bar Height and Background
+
+124. Stripes And Animation
+
+125. Scrollspy
+
+126. Spinners
+
+127. Growing Spinner
+
+128. Spinner Alignment
+
+129. Spinner Sizes
