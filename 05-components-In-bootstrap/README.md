@@ -218,3 +218,24 @@ class="offcanvas offcanvas-bottom"
 ## 115. Pagination
 
 ## 116. Placeholders
+
+## 117. Popovers In-Depth
+
+## Popovers
+
+- Rely on 3rd Party Library
+- Require Popover Plug/in
+- Requires Manual Initialization
+
+## 118. Popover Direction
+
+## 119. Custom Popovers file83
+
+## 120. Dismiss on Next Click file83
+
+## 121. Enable Popover On Hover file83
+
+`data-bs-trigger="focus"`
+`data-bs-trigger="hover focus"`
+
+## 122. Progress Bars
