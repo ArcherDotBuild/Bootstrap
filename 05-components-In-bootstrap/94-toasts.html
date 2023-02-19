@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Web Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <h1 class="mt-5 ms-5 mb-5">Toasts</h1>
+    <!-- START HERE -->
+    <div class="container mt-3">
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-8">
+          <button type="button" class="btn btn-primary" id="liveToastBtn">
+            Show live toast
+          </button>
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div
+              id="liveToast"
+              class="toast"
+              role="alert"
+              aria-live="assertive"
+              aria-atomic="true"
+            >
+              <div class="toast-header">
+                <img
+                  class="rounded me-2"
+                  style="width: 15px; height: 15px"
+                  src="https://static.wixstatic.com/media/294908_79d7c1f08d4d48f4b7d48dfd298ec26b~mv2.jpg/v1/fill/w_219,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/294908_79d7c1f08d4d48f4b7d48dfd298ec26b~mv2.jpg"
+                  alt=""
+                />
+                <strong class="me-auto">Welcome to Archer</strong>
+                <small>11 mins ago</small>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="toast"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="toast-body">
+                Hello, World! This is a toast message
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const toastTrigger = document.getElementById('liveToastBtn')
+      const toastLiveExample = document.getElementById('liveToast')
+      if (toastTrigger) {
+        toastTrigger.addEventListener('click', () => {
+          const toast = new bootstrap.Toast(toastLiveExample)
+          toast.show()
+        })
+      }
+    </script>
+  </body>
+</html>

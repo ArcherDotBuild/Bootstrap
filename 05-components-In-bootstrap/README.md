@@ -240,16 +240,189 @@ class="offcanvas offcanvas-bottom"
 
 ## 122. Progress Bars
 
-123. Progress Bar Height and Background
+## 123. Progress Bar Height and Background
 
-124. Stripes And Animation
+## 124. Stripes And Animation
 
-125. Scrollspy
+## 125. Scrollspy
 
-126. Spinners
+## 126. Spinners
 
-127. Growing Spinner
+## 127. Growing Spinner
 
-128. Spinner Alignment
+## 128. Spinner Alignment
 
-129. Spinner Sizes
+## 129. Spinner Sizes
+
+## 130. Spinner In Buttons
+
+## 131. Toasts
+
+## 132. Toast Alignment
+
+```
+// top and left
+class="toast position-fixed text-bg-primary top-0 start-0 ms-3 mt-3"
+// top and right
+class="toast position-fixed text-bg-primary top-0 end-0 me-3 mt-3"
+// bottom and right
+class="toast position-fixed text-bg-primary bottom-0 end-0 me-3 mb-3"
+// bottom and left
+class="toast position-fixed text-bg-primary bottom-0 start-0 ms-3 mb-3"
+```
+
+## 133. Tooltips In-Depth
+
+## 134. Custom Tooltip
+
+## 135. Tooltip Directions
+
+## 136. Html in Tooltip
+
+## 137. Tooltip On Disabled Elements
+
+## Quiz 5: Section 5
+
+### Question 1: Accordion is not a JavaScript plug-in in Bootstrap?
+
+- [ ] - True
+- [x] - False
+
+### Question 2: Alerts can be used with contextual classes to apply background color and font color?
+
+- [x] - True
+- [ ] - False
+
+### Question 3: Badges can be used inside buttons?
+
+- [x] - True
+- [ ] - False
+
+### Question 4: Dividers in breadcrumb cannot be modified?
+
+- [ ] - True
+- [x] - False
+
+### Question 5: You can disable a button with a attribute called?
+
+- [ ] - disable
+- [x] - disabled
+- [ ] - class="disable-button"
+- [ ] - class="deactivate"
+
+### Question 6: You can group the buttons, with a class called?
+
+- [ ] - group-btn
+- [x] - btn-group
+- [ ] - btn-set
+- [ ] - btn-group-set
+
+### Question 7: You can use contextual classes with btn-group to change the color of individual buttons?
+
+- [x] - True
+- [ ] - False
+
+### Question 8: You can group radio buttons?
+
+- [x] - True
+- [ ] - False
+
+### Question 9: You can change the size of the card with the class?
+
+- [ ] - card-sm
+- [ ] - card-lg
+- [ ] - card-big
+- [x] - None of the above
+
+### Question 10: Dark mode is available for Bootstrap carousel?
+
+- [x] - True
+- [ ] - False
+
+### Question 11: You need a class called close-btn to get the close button?
+
+- [ ] - True
+- [x] - False
+
+### Question 12: .collapse.show is used to show the content in collapsible panel?
+
+- [x] - True
+- [ ] - False
+
+### Question 13: Split button requires a class called?
+
+- [ ] - dropdown-split
+- [ ] - split-dropdown
+- [x] - dropdown-toggle-split
+- [ ] - split-toggle-dropdown
+
+### Question 14: You can create list groups with the class?
+
+- [x] - list-group
+- [ ] - group-list
+- [ ] - list-grouped
+- [ ] - grouped-list
+
+### Question 15: When backdrop is set to static, the modal will not close when clicked outside of it
+
+- [x] - True
+- [ ] - False
+
+### Question 16: You cannot include search field in NavBar?
+
+- [ ] - True
+- [x] - False
+
+### Question 17: To create vertical navbar, we use the class called?
+
+- [ ] - vertical-navbar
+- [ ] - navbar-vertical
+- [x] - flex-column
+- [ ] - column-flex
+
+### Question 18: data-bs-backdrop="static" is used to set backdrop to static in Offcanvas?
+
+- [x] - True
+- [ ] - False
+
+### Question 19: You can use icons in pagination?
+
+- [x] - True
+- [ ] - False
+
+### Question 20: placeholder-glow gives glowing effect on placeholder?
+
+- [x] - True
+- [ ] - False
+
+### Question 21: You must initialize popovers before they can be used?
+
+- [x] - True
+- [ ] - False
+
+### Question 22: To create striped progress bar, you need to use the class called?
+
+- [ ] - progress-bar-stripe
+- [x] - progress-bar-striped
+- [ ] - progress-bar
+- [ ] - striped-progress-bar
+
+### Question 23: Scrollspy automatically updates Bootstrap navigation?
+
+- [x] - True
+- [ ] - False
+
+### Question 24: Bootstrap Spinners use JavaScript to rotate?
+
+- [ ] - True
+- [x] - False
+
+### Question 25: Toasts can be aligned anywhere in the viewport edges?
+
+- [x] - True
+- [ ] - False
+
+### Question 26: Tooltips can be set to 4 different directions?
+
+- [x] - True
+- [ ] - False
