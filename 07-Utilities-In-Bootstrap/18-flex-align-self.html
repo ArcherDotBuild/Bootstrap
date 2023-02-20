@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Web Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .custom-height {
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="mt-5 ms-5 mb-5">Flex Align Self</h1>
+    <!-- START HERE -->
+    <div class="container mt-3">
+      <h1 class="mt-5 ms-5 mb-5">Flex Align Self</h1>
+      <div class="row justify-content-center mb-3 mt-5">
+        <div class="col-md-8">
+          <div class="custom-height d-flex bg-info mb-3 align-items-stretch">
+            <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+            <div class="p-2 text-bg-primary m-1 align-self-start">
+              Flex item 2
+            </div>
+            <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+          </div>
+          <!--  -->
+          <div class="custom-height d-flex bg-info mb-3 align-items-stretch">
+            <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+            <div class="p-2 text-bg-primary m-1 align-self-center">
+              Flex item 2
+            </div>
+            <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+          </div>
+          <!--  -->
+          <div class="custom-height d-flex bg-info mb-3 align-items-stretch">
+            <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+            <div class="p-2 text-bg-primary m-1 align-self-baseline">
+              Flex item 2
+            </div>
+            <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+          </div>
+          <!--  -->
+          <div class="custom-height d-flex bg-info mb-3 align-items-stretch">
+            <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+            <div class="p-2 text-bg-primary m-1 align-self-stretch">
+              Flex item 2
+            </div>
+            <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+          </div>
+          <!--  -->
+          <div class="custom-height d-flex bg-info mb-3 align-items-stretch">
+            <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+            <div class="p-2 text-bg-primary m-1 align-self-end">
+              Flex item 2
+            </div>
+            <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Flex Align Self Breakpoints -->
+    <!-- START HERE -->
+    <div class="container mt-3">
+      <h1 class="mt-5 ms-5 mb-5">Flex Align Self Breakpoints</h1>
+      <div class="row justify-content-center mb-3 mt-5">
+        <div class="col-md-8">
+          <div class="custom-height d-flex bg-info mb-3 align-items-stretch">
+            <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+
+            <div
+              class="p-2 text-bg-warning m-1 align-self-md-start align-self-sm-end"
+            >
+              Flex item 2
+            </div>
+            <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
