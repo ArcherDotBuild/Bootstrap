@@ -2,23 +2,23 @@
 
 ## 138. Clearfix
 
-139. Colors and Background
+## 139. Colors and Background
 
-140. Colored Links
+## 140. Colored Links
 
-141. Ratios
+## 141. Ratios
 
-142. Positions
+## 142. Positions
 
-143. Stacks
+## 143. Stacks
 
-144. Visually Hidden
+## 144. Visually Hidden
 
-145. Stretched Link
+## 145. Stretched Link
 
-146. Text Truncate
+## 146. Text Truncate
 
-147. Vertical Rule
+## 147. Vertical Rule
 
 ## Quiz 6: Section 6
 
@@ -75,4 +75,3 @@
 
 - [x] - True
 - [ ] - False
-
