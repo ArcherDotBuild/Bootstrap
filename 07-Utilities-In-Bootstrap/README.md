@@ -41,3 +41,21 @@
 167. Flex Fill
 
 168. Flex Grow And Shrink
+
+169. Flex Auto Margins
+
+170. Flex With Align Items
+
+171. Flex Wrap
+
+172. Flex Order
+
+173. Flex Align Content
+
+174. Flex Media Object
+
+175. Responsive Float
+
+176. Interactions
+
+177. Opacity
