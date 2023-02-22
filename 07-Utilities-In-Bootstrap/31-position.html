@@ -11,22 +11,18 @@
     />
   </head>
   <body>
-    <h1 class="mt-5 ms-5 mb-5">Opacity</h1>
+    <h1 class="mt-5 ms-5 mb-5">Position</h1>
     <!-- START HERE -->
     <div class="container mt-3">
       <div class="row justify-content-center mb-3 mt-5">
         <div class="col-md-8">
-          <div class="alert text-bg-success opacity-100">
-            100% opacity
-          </div>
-          <div class="alert text-bg-success opacity-75">
-            750% opacity
-          </div>
-          <div class="alert text-bg-success opacity-50">
-            100% opacity
-          </div>
-          <div class="alert text-bg-success opacity-25">
-            100% opacity
+          <div class="position-relative bg-warning" style="height: 400px">
+            <div class="p-3 bg-dark position-absolute top-0 start-0"></div>
+            <div class="p-3 bg-dark position-absolute top-0 end-0"></div>
+            <div class="p-3 bg-dark position-absolute top-50 start-50"></div>
+            <div class="p-3 bg-dark position-absolute bottom-50 end-50"></div>
+            <div class="p-3 bg-dark position-absolute bottom-0 start-0"></div>
+            <div class="p-3 bg-dark position-absolute bottom-0 end-0"></div>
           </div>
         </div>
       </div>
