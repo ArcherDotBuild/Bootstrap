@@ -111,40 +111,40 @@
     </nav>
     <!-- Nav END -->
 
-    <!-- Cards -->
-    <div class="container-fluid">
+    <!-- Employees data -->
+    <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-3">
-          <div class="card text-bg-primary shadow text-center">
-            <div class="card-header">Employees List</div>
-            <div class="card-body">
-              <span class="fs-1">+254</span>
-            </div>
-            <a
-              href="employees-list.html"
-              class="card-footer small text-decoration-none text-white"
-            >
-              View Employees
-            </a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card text-bg-primary shadow text-center">
-            <div class="card-header">Jobs List</div>
-            <div class="card-body">
-              <span class="fs-1">+25</span>
-            </div>
+        <div class="col-md-2">
+          <div class="list-group shadow-sm small mb-3">
+            <div class="list-group-item active">Employees Data</div>
             <a
               href="#"
-              class="card-footer small text-decoration-none text-white"
+              class="list-group-item list-group-item-action"
+              data-bs-toggle="modal"
+              data-bs-target="#add_employee"
+              >Add Employee</a
             >
-              View all Jobs
-            </a>
+            <a
+              href="employees-list.html"
+              class="list-group-item list-group-item-action"
+              >View Employees</a
+            >
+          </div>
+          <!--  -->
+          <div class="list-group shadow-sm small mb-3">
+            <div class="list-group-item active">Related Links</div>
+
+            <a
+              href="#"
+              class="list-group-item list-group-item-action"
+              >Job List</a
+            >
           </div>
         </div>
+        <div class="col-md-8"></div>
       </div>
     </div>
-    <!-- Cards END -->
+    <!-- Employees data END -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
