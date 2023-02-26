@@ -1,0 +1,11 @@
+.brand-gradient {
+  background: #1986cf;
+  background: -webkit-linear-gradient(to top, #1986cf 0%, #4bcf23 100%);
+  background: linear-gradient(to top, #1986cf 0%, #4bcf23);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.vr {
+  color: white;
+}
