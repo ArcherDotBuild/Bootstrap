@@ -121,7 +121,7 @@
               href="#"
               class="list-group-item list-group-item-action"
               data-bs-toggle="modal"
-              data-bs-target="#job"
+              data-bs-target="#add_job"
               >Add Job</a
             >
             <a
@@ -307,12 +307,12 @@
         </div>
       </div>
     </div>
-    <!-- Employees data END -->
+    <!-- Jobs data END -->
 
-    <!-- Add Employee Modal -->
+    <!-- Add Jobs Modal -->
     <div
       class="modal fade"
-      id="add_employee"
+      id="add_job"
       data-bs-backdrop="static"
       tabindex="-1"
       aria-hidden="true"
@@ -321,7 +321,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header text-bg-dark">
-            <h5 class="modal-title">Add Employee Details</h5>
+            <h5 class="modal-title">Add Job Details</h5>
             <button
               type="button"
               class="btn-close btn-close-white"
@@ -341,64 +341,20 @@
                     />
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="mb-3">
-                    <input
-                      type="text"
-                      class="form-control form-control-sm"
-                      placeholder="First Name"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="mb-3">
-                    <input
-                      type="text"
-                      class="form-control form-control-sm"
-                      placeholder="Last Name"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="mb-3">
-                    <input
-                      type="email"
-                      class="form-control form-control-sm"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="mb-3">
-                    <input
-                      type="tel"
-                      class="form-control form-control-sm"
-                      placeholder="Cel"
-                      required
-                    />
-                  </div>
-                </div>
                 <div class="col-md-12">
                   <div class="mb-3">
-                    <select
-                      class="form-select form-select-sm"
-                      aria-label="Job Assigned"
-                    >
-                      <option selected>Select job for Employee</option>
-                      <option value="Graphic Designer">Graphic Designer</option>
-                      <option value="Web Designer">Web Designer</option>
-                      <option value="Web Developer">Web Developer</option>
-                      <option value="Digital Marketer">Digital Marketer</option>
-                    </select>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      placeholder="Job Name"
+                      required
+                    />
                   </div>
                 </div>
                 <div class="col-md-10">
                   <div class="d-grid">
                     <button type="submit" class="btn btn-sm btn-success">
-                      Add Employee
+                      Add Job
                     </button>
                   </div>
                 </div>
@@ -420,7 +376,7 @@
         </div>
       </div>
     </div>
-    <!-- Add Employee Modal END -->
+    <!-- Add Jobs Modal END -->
 
     <!-- Employee Details Modal -->
     <div
