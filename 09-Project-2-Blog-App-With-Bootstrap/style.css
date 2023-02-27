@@ -6,6 +6,9 @@
   background-clip: text;
   color: transparent;
 }
-.vr {
-  color: white;
+
+.banner-holder {
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
