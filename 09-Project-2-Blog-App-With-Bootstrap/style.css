@@ -12,3 +12,7 @@
   background-size: cover;
   background-position: bottom;
 }
+
+.custom-nav {
+  backdrop-filter: blue(8px);
+}
