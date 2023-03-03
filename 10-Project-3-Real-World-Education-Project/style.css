@@ -16,3 +16,7 @@
   background-size: cover;
   background-position: center;
 }
+.brand-icon img {
+  width: 100px;
+  height: auto;
+}
