@@ -6,3 +6,8 @@
   width: 100%;
   height: auto;
 }
+
+.feature-item img {
+  width: 50px;
+  height: auto;
+}
