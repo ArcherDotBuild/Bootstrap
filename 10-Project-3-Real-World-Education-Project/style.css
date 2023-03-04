@@ -20,3 +20,8 @@
   width: 100px;
   height: auto;
 }
+
+.blur-filter {
+  backdrop-filter: blur(8px);;
+  background-color: rgb(255 255 255 / 30%);
+}
